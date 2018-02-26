@@ -1,5 +1,6 @@
 # Bulk DNS Scanner
 Scans a domain and attemps to identify records using a predefined list of subdomains and record types.
+If you have ever used the cloudflare, it essentially aims to replicate the 'initial scan' cloudflare does of a domain.
 
 Run using:
 
@@ -22,3 +23,5 @@ Your own subdomain and record lists can be passed:
 	
 	scanner = BulkDNSScan()
 	scanner.run()
+
+If you have any questions, please don't hesitate to ask in the issues section.
