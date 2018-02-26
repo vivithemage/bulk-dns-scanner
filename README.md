@@ -9,8 +9,8 @@ Run using:
 To use, please copy the following into your project.
 
 	scanner = BulkDNSScan()
-    	results = scanner.run('example.com')
-    	print(results)
+	results = scanner.run('example.com')
+	print(results)
 
 It returns a dict which looks something along the lines of:
 
